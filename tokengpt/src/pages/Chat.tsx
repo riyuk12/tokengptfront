@@ -78,8 +78,9 @@ function Chat() {
         {/* Header */}
         <div className="bg-indigo-600 p-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Bot className="text-white h-6 w-6" />
-            <h1 className="text-xl font-bold text-white">AI Assistant</h1>
+            {/* <Bot className="text-white h-6 w-6" /> */}
+            <img src="zenithlogomain.png" alt="zenith logo main" height={100} width={100} />
+            {/* <h1 className="text-xl font-bold text-white">AI Assistant</h1> */}
           </div>
           <div className="flex items-center bg-indigo-500 px-3 py-1 rounded-full">
             <Sparkles className="text-yellow-300 h-4 w-4 mr-2" />
@@ -91,7 +92,8 @@ function Chat() {
         <div className="flex-1 overflow-y-auto p-4 space-y-4">
           {messages.length === 0 ? (
             <div className="flex flex-col items-center justify-center h-full text-gray-500">
-              <Bot className="h-16 w-16 mb-4 text-indigo-600" />
+              {/* <Bot className="h-16 w-16 mb-4 text-indigo-600" /> */}
+              <img src="5.png" alt="zenith icon" height={100} width={100} />
               <p className="text-lg">Start a conversation!</p>
               <p className="text-sm">Each message costs 1 credit</p>
             </div>
